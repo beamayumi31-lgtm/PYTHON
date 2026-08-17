@@ -9,5 +9,5 @@ dobro_de_x = x*2
 resultado = x - dobro_de_x
 
 print(f"O número é {x}.")
-print(f"Sua terça parte é {dobro_de_x}.")
+print(f"O dobro é {dobro_de_x}.")
 print(f"A diferença entre {x} e {dobro_de_x} é {resultado}.")
