@@ -1,0 +1,14 @@
+import math
+
+# Solicita o número decimal ao usuário
+numero = float(input("Digite um número decimal positivo: "))
+
+# Cálculos utilizando o módulo math
+raiz_quadrada = math.sqrt(numero)
+arredondado_cima = math.ceil(numero)
+arredondado_baixo = math.floor(numero)
+
+# Exibição dos resultados
+print(f"Raiz quadrada: {raiz_quadrada}")
+print(f"Arredondado para cima (ceil): {arredondado_cima}")
+print(f"Arredondado para baixo (floor): {arredondado_baixo}")
