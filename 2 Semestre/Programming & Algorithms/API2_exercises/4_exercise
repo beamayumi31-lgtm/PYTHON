@@ -1,0 +1,5 @@
+RESPOSTA A:
+
+Valor dentro da função: 5
+Valor fora da função: 10
+RESPOSTA B: A variável x = 10 definida na primeira linha pertence ao escopo global, ficando acessível no nível do programa principal. Quando a função alterar_valor() é executada e atribui x = 5, o Python não altera a variável global original; em vez disso, cria uma nova variável no escopo local da função com o mesmo nome (shadowing). Assim que a execução da função termina, a variável local é destruída, mantendo a variável global x intacta com o valor 10.
