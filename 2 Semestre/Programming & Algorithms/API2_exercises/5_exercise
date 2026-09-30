@@ -1,0 +1,15 @@
+# 1. Imports
+import math
+
+# 2. Funções
+def calcular_hipotenusa(cateto_a, cateto_b):
+    return math.sqrt(cateto_a**2 + cateto_b**2)
+    # Alternativamente, poderia ser usado: return math.hypot(cateto_a, cateto_b)
+
+# 3. Código Principal
+cateto_1 = float(input("Digite a medida do primeiro cateto: "))
+cateto_2 = float(input("Digite a medida do segundo cateto: "))
+
+hipotenusa = calcular_hipotenusa(cateto_1, cateto_2)
+
+print(f"A hipotenusa do triângulo é: {hipotenusa:.2f}")
