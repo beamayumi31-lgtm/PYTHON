@@ -1,0 +1,11 @@
+import math
+
+# Definição da função
+def calcular_area_circulo(raio):
+    return math.pi * (raio ** 2)
+
+# Fluxo principal
+raio_usuario = float(input("Digite o valor do raio do círculo: "))
+area = calcular_area_circulo(raio_usuario)
+
+print(f"A área do círculo é: {area:.2f}")
