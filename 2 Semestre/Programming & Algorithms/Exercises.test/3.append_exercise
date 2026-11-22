@@ -1,0 +1,5 @@
+passatempo = []
+for _ in range(3):
+    entretenimento= input("Digite o seu passatempo: ")
+    passatempo.append(entretenimento)
+print(passatempo)
