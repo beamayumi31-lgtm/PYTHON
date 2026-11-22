@@ -1,0 +1,7 @@
+lista_a = ['a', 'b', 'c']
+lista_b = [1, 2, 3]
+intercalada = []
+for i in range(len(lista_a)):
+  intercalada.append(lista_a[i])
+  intercalada.append(lista_b[i])
+print(intercalada)
