@@ -1,0 +1,5 @@
+ideias = []
+ideias.append("Ideia 1: forcar na faculdade")
+ideias.append("Ideia 2: estudar mais")
+ideias.append("Ideia 3: fazer cursos online")
+print(ideias)
